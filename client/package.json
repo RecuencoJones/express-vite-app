@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite --port 8080",
+    "build": "cross-env NODE_ENV=production vite build --config vite.config.prod.js"
+  },
+  "dependencies": {
+    "vue": "3.1.5"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "vite": "2.4.2"
+  }
+}
